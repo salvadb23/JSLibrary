@@ -48,4 +48,11 @@ let camelCase = (str) => {
     return wordArr.join('')
 }
 
-console.log(capitalize('hello'))
+module.exports.capitalize = capitalize
+module.exports.allCaps = allCaps
+module.exports.capitalizeWords = capitalizeWords
+module.exports.removeExtraSpaces = removeExtraSpaces
+module.exports.kabobCase = kabobCase
+module.exports.camelCase = camelCase
+module.exports.snakeCase = snakeCase
+
