@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/salvadb23/JSLibrary#readme",
   "dependencies": {
+    "@types/node": "^12.12.7",
     "jest": "^24.9.0"
   }
 }
